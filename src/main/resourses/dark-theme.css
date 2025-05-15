@@ -1,0 +1,36 @@
+/* dark-theme.css */
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: white;
+}
+
+.label, .text-field, .button, .table-view {
+    -fx-base: #3a3a3a;
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-border-color: #666666;
+}
+
+.table-view {
+    -fx-background-color: #333333;
+}
+
+.table-view .column-header {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #555555;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #444444;
+}
+
+.table-view .cell {
+    -fx-text-fill: white;
+}
